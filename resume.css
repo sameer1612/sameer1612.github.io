@@ -1,0 +1,46 @@
+body {
+  font-family: "Lato";
+}
+
+.bg-aqua {
+  background: rgb(154, 235, 254);
+}
+
+#photo {
+  width: 200px;
+}
+
+#mail {
+  text-decoration: underline;
+}
+
+.base {
+  border-radius: 5px;
+  overflow: hidden !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 2em;
+}
+
+section {
+  margin: 1.25em auto;
+}
+
+.header {
+  font-weight: 600;
+}
+
+.subheader {
+  font-weight: 600;
+  margin-top: 0.8em;
+}
+
+.rating div {
+  border-top: 3px solid lightgrey;
+  min-width: 40px !important;
+  min-height: 3px !important;
+  margin-right: 2px;
+}
+
+.dark {
+  border-top: 3px solid rgb(100, 100, 100) !important;
+}
