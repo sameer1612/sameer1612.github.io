@@ -6,8 +6,12 @@ body {
   background: rgb(154, 235, 254);
 }
 
-#photo {
-  width: 200px;
+.left-col {
+  min-width: 300px !important;
+}
+
+.main-col {
+  margin-left: 3% !important; 
 }
 
 #mail {
