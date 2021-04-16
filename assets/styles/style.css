@@ -95,7 +95,9 @@ section {
     bottom: 6em;
     text-align: left !important;
   }
-  #hero .card .card-header, #hero .card img, #hero .card a {
+  #hero .card .card-header,
+  #hero .card img,
+  #hero .card a {
     display: none;
   }
   #about .lead {

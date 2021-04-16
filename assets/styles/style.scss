@@ -95,7 +95,9 @@ section {
       bottom: 6em;
       text-align: left !important;
 
-      .card-header, img, a {
+      .card-header,
+      img,
+      a {
         display: none;
       }
     }
