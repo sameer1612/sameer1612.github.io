@@ -1,0 +1,64 @@
+html {
+  font-family: "Lato";
+}
+body {
+  background-color: #c9d4e5;
+}
+
+section {
+  padding: 2em;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(
+      rgba(60, 73, 187, 0.4),
+      rgba(26, 31, 46, 1)
+    ),
+    url("../images/bg.jpg");
+  background: linear-gradient(rgba(60, 115, 199, 0.3), rgba(0, 0, 0, 1)),
+    url("../images/bg.jpg");
+  background-size: cover;
+
+  img {
+    object-fit: cover;
+  }
+
+  .card {
+    margin-right: auto;
+    margin-left: 4em;
+    border-radius: 1rem;
+    width: 22.5rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 0.9;
+
+    .card-header {
+      background: #38434f;
+      border-radius: 1rem 1rem 0 0;
+
+      svg {
+        width: 5em;
+      }
+    }
+
+    .card-subtitle {
+      color: #ccc;
+    }
+  }
+
+  #scroll-down-arrow {
+    position: fixed;
+    bottom: 1em;
+    width: 4em;
+  }
+}
+
+// Optimizations for mobile layout.
+@media only screen and (max-width: 600px) {
+  #hero {
+    background-position: -66%;
+  }
+}

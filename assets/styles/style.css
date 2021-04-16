@@ -1,0 +1,67 @@
+html {
+  font-family: "Lato";
+}
+
+body {
+  background-color: #c9d4e5;
+}
+
+section {
+  padding: 2em;
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 115, 199, 0.3)), to(black)), url("../images/bg.jpg");
+  background: linear-gradient(rgba(60, 115, 199, 0.3), black), url("../images/bg.jpg");
+  background-size: cover;
+}
+
+#hero img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#hero .card {
+  margin-right: auto;
+  margin-left: 4em;
+  border-radius: 1rem;
+  width: 22.5rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 0.9;
+}
+
+#hero .card .card-header {
+  background: #38434f;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#hero .card .card-header svg {
+  width: 5em;
+}
+
+#hero .card .card-subtitle {
+  color: #ccc;
+}
+
+#hero #scroll-down-arrow {
+  position: fixed;
+  bottom: 1em;
+  width: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero {
+    background-position: -66%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
