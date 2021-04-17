@@ -57,11 +57,16 @@ section {
 }
 
 #about {
+  position: relative;
+
   img {
     width: 14em;
+    z-index: 100;
   }
   .lead {
     text-align: justify;
+    position: relative;
+    z-index: 100;
   }
 }
 
@@ -79,6 +84,29 @@ section {
     width: 30%;
     right: 1em;
     bottom: 1em;
+  }
+}
+
+#contact {
+  position: relative;
+  background-color: dodgerblue !important;
+
+  .row {
+    .card {
+      border-radius: 1rem;
+    }
+
+    img {
+      width: 10em;
+      height: 10em;
+    }
+  }
+  #lets-connect {
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+    width: 40%;
+    opacity: 0.3;
   }
 }
 
@@ -104,8 +132,12 @@ section {
   }
 
   #about {
+    img {
+      width: 10em;
+    }
+
     .lead {
-      font-size: large;
+      font-size: 1.1em;
     }
   }
 
@@ -121,6 +153,21 @@ section {
       width: 75%;
       left: 3em;
       bottom: 1em;
+    }
+  }
+
+  #contact {
+    .row {
+      img {
+        width: 6em;
+        height: 6em;
+      }
+    }
+
+    #lets-connect {
+      width: 60%;
+      bottom: 2em;
+      left: 5em;
     }
   }
 }
